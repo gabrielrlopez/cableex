@@ -1,0 +1,40 @@
+.partnership-pic-container {
+  height: 400px;
+  padding: 20px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px 2px grey;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://images.unsplash.com/photo-1549923746-c502d488b3ea?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2251&q=80");
+  background-size: cover;
+  background-position: bottom;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bulletpoints {
+  padding-left: 50px;
+}
+
+.partnership-section-content {
+  display: flex;
+  justify-content: center;
+}
+
+.partnership-section-content-options {
+  margin-left: 238px;
+}
+
+@media screen and (max-width: 600px) {
+  .partnership-section-content-options {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .partnership-section-content-options {
+    margin-left: 0;
+  }
+}

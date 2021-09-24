@@ -1,0 +1,55 @@
+.contact-pic-container {
+  height: 400px;
+  padding: 20px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px 2px grey;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(https://images.unsplash.com/photo-1561233835-f937539b95b9?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1275&q=80);
+  background-size: cover;
+  background-position: center;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-link {
+  color: #fff;
+}
+
+.forms-heading {
+  text-align: center;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.forms-heading-1 {
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 45px;
+  font-family: "Calibri";
+}
+
+.forms-heading-1-wrapper {
+  margin: auto;
+  max-width: 1300px;
+}
+
+.all-requests {
+  text-decoration: underline;
+}
+
+.form-box {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  .contact-us-wrapper {
+    flex-direction: column;
+  }
+  .info-container {
+    flex-direction: column;
+  }
+}

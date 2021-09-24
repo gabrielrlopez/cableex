@@ -1,0 +1,81 @@
+.pic-container {
+  height: 80vh;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px 2px grey;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(https://lh3.googleusercontent.com/-3NmtUBVoGRE/X4P-_yKYqvI/AAAAAAAAAAc/pncpAg5WLr4rRnOR3dERs0WSw7gjxjLTQCK8BGAsYHg/s0/2020-10-12.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.punchline {
+  font-size: 60px;
+  color: #fff;
+}
+
+.punchline-home {
+  /* font-size: 90px; */
+  color: #fff;
+}
+
+.learn-more-btn {
+  width: 250px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.ready-container {
+  background-color: #658ab6;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px;
+  color: #fff;
+}
+
+.ready-header {
+  font-size: 36px;
+  margin-bottom: 0.5rem;
+}
+
+.ready-sub-title {
+  font-size: 18px;
+  margin-bottom: 3rem;
+  font-size: 19px;
+}
+
+.ready-btn {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.home-section-content {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 920px) {
+  .card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .pic-container {
+    text-align: center;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+  }
+}

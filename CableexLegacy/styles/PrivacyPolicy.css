@@ -1,0 +1,9 @@
+.privacy-container {
+  margin-left: 25px;
+}
+
+.privacy-heading,
+.privacy-footer {
+  text-align: center;
+  justify-content: center;
+}
